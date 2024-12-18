@@ -5,11 +5,11 @@ import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Logo from "../../public/image.png"
-import { ClerkProvider, SignInButton, SignUpButton, SignedIn, SignedOut, UserButton, useUser } from '@clerk/nextjs'
-import { Stack } from "@chakra-ui/react"
-import { Alert } from "@/components/ui/alert"
+import { SignInButton, SignedIn, SignedOut, UserButton, useUser } from '@clerk/nextjs'
+// import { Stack } from "@chakra-ui/react"
+// import { Alert } from "@/components/ui/alert"
 
-import createActivity from '@/pages/createactivity'
+// import createActivity from '@/pages/createactivity'
 function Navbar() {
     const navigation = [
         { name: 'Product', href: '#' },
@@ -19,7 +19,7 @@ function Navbar() {
     ]
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
     const { isSignedIn } = useUser();
-    const [loginAlert, setLoginAlert] = useState(false);
+    // const [loginAlert, setLoginAlert] = useState(false);
 
 
 
