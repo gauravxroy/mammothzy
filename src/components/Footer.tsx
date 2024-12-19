@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { LuMail } from "react-icons/lu";
 function Footer() {
     return (
-        <footer className=" text-white py-10 ">
+        <footer className="bg-white text-white py-14 ">
             <div className='flex justify-center mb-2'>
                 <Image alt='logo' src={Logo} className='h-20 w-auto' />
             </div>
