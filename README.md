@@ -299,3 +299,9 @@ For any inquiries or issues, please reach out to:
 
 **Tip**: For the images and videos, replace the placeholder paths with actual links or file paths in your repository to ensure they display correctly in your README file.
 
+<<<<<<< HEAD
+=======
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b1ce7f6d-af88-48cf-bed7-f5943aeb475e/deploy-status)](https://app.netlify.com/sites/mammothzy/deploys)
+>>>>>>> origin/main
