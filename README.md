@@ -211,7 +211,7 @@ git push origin your-feature-branch
 ## Contact
 
 For any inquiries or issues, please reach out to:
-- **Developer And Created By**
+- **Developed And Created By**
 - **Name**: Gaurav
 - **GitHub**: [(https://github.com/gauravxroy)]
 
