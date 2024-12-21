@@ -205,11 +205,6 @@ git push origin your-feature-branch
 
 ---
 
-## License
-
-[Insert License Name] - [Insert License URL]
-
----
 
 ## Contact
 
