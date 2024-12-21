@@ -49,7 +49,7 @@ The following technologies are used to build **Mammothzy**:
 
 ## Flow Of App
 
-![alt text](<flowDiagram.png>)
+![alt text](<FlowDiagram.png>)
 
 
 
