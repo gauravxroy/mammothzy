@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+select,
+option {
+  font-family: "Segoe UI Emoji", "Noto Color Emoji", "Apple Color Emoji",
+    sans-serif;
+}
 
 /* :root {
   --background: #ffffff;

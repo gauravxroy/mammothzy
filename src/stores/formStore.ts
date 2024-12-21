@@ -7,6 +7,13 @@ interface FormData {
   category: string;
   minMembers: number;
   maxMembers: number;
+  addressLine1:string;
+  addressLine2:string;
+  zipCode:number;
+  city:string;
+  state:string;
+  contactNumber:number;
+  contactName:string;
 }
 
 
@@ -32,7 +39,13 @@ const formStore = create<FormStore>((set) => ({
     category: "",
     minMembers: 0,
     maxMembers: 0,
-
+  addressLine1:"",
+  addressLine2:"",
+  zipCode:0,
+  city:"",
+  state:"",
+  contactNumber:0,
+  contactName:"",
     // create formData varibles for location field
   },
  activeTab: "ActivityTab", // Default tab

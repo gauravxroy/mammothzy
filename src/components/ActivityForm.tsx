@@ -18,7 +18,7 @@ function Activity() {
     const { formData, errors, updateFormData, validateForm, activeTab, setActiveTab } = formStore();
 
 
-    const handleSaveAndContinue = (e) => {
+    const handleSaveAndContinue = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         const isValid = validateForm();
         if (!isValid) return; // Prevent navigation if the form is invalid
@@ -30,35 +30,13 @@ function Activity() {
 
     return (
         <>
-            <div className="mb-4">
-                <div className="flex px-12 divide-x-2 divide-slate-100 border-b-2 border-gray-200">
-                    {/* <div>
-                        <h2 className="text-2xl text-gray-900 font-semibold mb-4">
-                            Create New Activity
-                        </h2>
+            <div className="">
+                <div className="flex px-12 divide-x-2 divide-slate-100  border-gray-200">
 
-
-                        <Link href="#tab1"
-                            className={`flex justify-center items-center gap-1 px-4 py-2 
-                            ${activeTab === 'ActivityTab' ? 'text-gray-800 ' : 'text-gray-400 hover:text-gray-800 '
-                                }`}
-                            onClick={handleSaveAndContinue}>
-                            <TbFlag3 size={20} /> Activity Details
-                        </Link>
-
-                        <Link href="#tab2"
-                            onClick={handleSaveAndContinue}
-                            className={`flex justify-center items-center gap-1 px-4 py-2
-                            ${activeTab === "LocationTab" ? 'text-gray-800 ' : 'text-gray-400  hover:text-gray-800'}`}
-
-                        >
-                            <MdOutlineLocationOn size={20} /> Location Details
-                        </Link>
-                    </div> */}
 
                     <div className="max-w-4xl ml-8 bg-white p-8">
                         <h2 className="text-xl font-semibold text-gray-700 mb-6">
-                            Create New Activity
+                            Activity Details
                         </h2>
                         <form onSubmit={handleSaveAndContinue}>
 
@@ -203,14 +181,14 @@ function Activity() {
                                         step="null"
                                         value={formData.minMembers}
                                         onChange={(e) => updateFormData("minMembers", e.target.value)}
-                                        className="mt-2 appearance-none block w-full p-2 border rounded"
+                                        className="mt-2 appearance-none block w-full p-2 border rounded-full"
                                     />
                                     {errors.minMembers && <span className="text-red-500">{errors.minMembers}</span>}
                                 </div>
                                 <div>
                                     <label
                                         htmlFor="maxMembers"
-                                        className="block text-sm font-medium text-gray-700"
+                                        className="block text-sm font-medium  text-gray-700"
                                     >
                                         Maximum Members <span className="text-red-500">*</span>
                                     </label>
@@ -218,10 +196,10 @@ function Activity() {
                                         placeholder="Maximum Members"
                                         id="maxMembers"
                                         type="number"
-
+                                        max={20}
                                         value={formData.maxMembers}
                                         onChange={(e) => updateFormData("maxMembers", e.target.value)}
-                                        className="mt-2 block  w-full p-2 border rounded"
+                                        className="mt-2 block  w-full p-2 border rounded-full"
 
                                     />
                                     {errors.maxMembers && <span className="text-red-500">{errors.maxMembers}</span>}

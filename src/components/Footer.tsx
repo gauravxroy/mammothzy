@@ -19,7 +19,7 @@ function Footer() {
                     <a href="#" className=""> <LuMail size={24} color='#382D51' /></a>
                 </div>
                 <div className="mt-4">
-                    <p className='text-gray-400'> 2024 Maamothzy. All rights reserved</p>
+                    <p className='text-gray-400'> 2024 Mammothzy. All rights reserved</p>
                 </div>
             </div>
         </footer>

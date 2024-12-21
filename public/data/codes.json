@@ -1,0 +1,362 @@
+{
+  "apiSource": "https://www.postman.com/",
+  "error": false,
+  "msg": "countries and unicode flags retrieved",
+  "data": [
+    {
+      "name": "Afghanistan",
+      "iso2": "AF",
+      "iso3": "AFG",
+      "flag": "🇦🇫"
+    },
+    {
+      "name": "Armenia",
+      "iso2": "AM",
+      "iso3": "ARM",
+      "flag": "🇦🇲"
+    },
+    {
+      "name": "Azerbaijan",
+      "iso2": "AZ",
+      "iso3": "AZE",
+      "flag": "🇦🇿"
+    },
+    {
+      "name": "Bahrain",
+      "iso2": "BH",
+      "iso3": "BHR",
+      "flag": "🇧🇭"
+    },
+    {
+      "name": "Bangladesh",
+      "iso2": "BD",
+      "iso3": "BGD",
+      "flag": "🇧🇩"
+    },
+    {
+      "name": "Bhutan",
+      "iso2": "BT",
+      "iso3": "BTN",
+      "flag": "🇧🇹"
+    },
+    {
+      "name": "Brunei",
+      "iso2": "BN",
+      "iso3": "BRN",
+      "flag": "🇧🇳"
+    },
+    {
+      "name": "Cambodia",
+      "iso2": "KH",
+      "iso3": "KHM",
+      "flag": "🇰🇭"
+    },
+    {
+      "name": "China",
+      "iso2": "CN",
+      "iso3": "CHN",
+      "flag": "🇨🇳"
+    },
+    {
+      "name": "Cyprus",
+      "iso2": "CY",
+      "iso3": "CYP",
+      "flag": "🇨🇾"
+    },
+    {
+      "name": "Georgia",
+      "iso2": "GE",
+      "iso3": "GEO",
+      "flag": "🇬🇪"
+    },
+    {
+      "name": "India",
+      "iso2": "IN",
+      "iso3": "IND",
+      "flag": "🇮🇳"
+    },
+    {
+      "name": "Indonesia",
+      "iso2": "ID",
+      "iso3": "IDN",
+      "flag": "🇮🇩"
+    },
+    {
+      "name": "Iran",
+      "iso2": "IR",
+      "iso3": "IRN",
+      "flag": "🇮🇷"
+    },
+    {
+      "name": "Iraq",
+      "iso2": "IQ",
+      "iso3": "IRQ",
+      "flag": "🇮🇶"
+    },
+    {
+      "name": "Israel",
+      "iso2": "IL",
+      "iso3": "ISR",
+      "flag": "🇮🇱"
+    },
+    {
+      "name": "Japan",
+      "iso2": "JP",
+      "iso3": "JPN",
+      "flag": "🇯🇵"
+    },
+    {
+      "name": "Jordan",
+      "iso2": "JO",
+      "iso3": "JOR",
+      "flag": "🇯🇴"
+    },
+    {
+      "name": "Kazakhstan",
+      "iso2": "KZ",
+      "iso3": "KAZ",
+      "flag": "🇰🇿"
+    },
+    {
+      "name": "Kuwait",
+      "iso2": "KW",
+      "iso3": "KWT",
+      "flag": "🇰🇼"
+    },
+    {
+      "name": "Kyrgyzstan",
+      "iso2": "KG",
+      "iso3": "KGZ",
+      "flag": "🇰🇬"
+    },
+    {
+      "name": "Laos",
+      "iso2": "LA",
+      "iso3": "LAO",
+      "flag": "🇱🇦"
+    },
+    {
+      "name": "Lebanon",
+      "iso2": "LB",
+      "iso3": "LBN",
+      "flag": "🇱🇧"
+    },
+    {
+      "name": "Malaysia",
+      "iso2": "MY",
+      "iso3": "MYS",
+      "flag": "🇲🇾"
+    },
+    {
+      "name": "Maldives",
+      "iso2": "MV",
+      "iso3": "MDV",
+      "flag": "🇲🇻"
+    },
+    {
+      "name": "Mongolia",
+      "iso2": "MN",
+      "iso3": "MNG",
+      "flag": "🇲🇳"
+    },
+    {
+      "name": "Myanmar",
+      "iso2": "MM",
+      "iso3": "MMR",
+      "flag": "🇲🇲"
+    },
+    {
+      "name": "Nepal",
+      "iso2": "NP",
+      "iso3": "NPL",
+      "flag": "🇳🇵"
+    },
+    {
+      "name": "North Korea",
+      "iso2": "KP",
+      "iso3": "PRK",
+      "flag": "🇰🇵"
+    },
+    {
+      "name": "Oman",
+      "iso2": "OM",
+      "iso3": "OMN",
+      "flag": "🇴🇲"
+    },
+    {
+      "name": "Pakistan",
+      "iso2": "PK",
+      "iso3": "PAK",
+      "flag": "🇵🇰"
+    },
+    {
+      "name": "Palestine",
+      "iso2": "PS",
+      "iso3": "PSE",
+      "flag": "🇵🇸"
+    },
+    {
+      "name": "Philippines",
+      "iso2": "PH",
+      "iso3": "PHL",
+      "flag": "🇵🇭"
+    },
+    {
+      "name": "Qatar",
+      "iso2": "QA",
+      "iso3": "QAT",
+      "flag": "🇶🇦"
+    },
+    {
+      "name": "Saudi Arabia",
+      "iso2": "SA",
+      "iso3": "SAU",
+      "flag": "🇸🇦"
+    },
+    {
+      "name": "Singapore",
+      "iso2": "SG",
+      "iso3": "SGP",
+      "flag": "🇸🇬"
+    },
+    {
+      "name": "South Korea",
+      "iso2": "KR",
+      "iso3": "KOR",
+      "flag": "🇰🇷"
+    },
+    {
+      "name": "Sri Lanka",
+      "iso2": "LK",
+      "iso3": "LKA",
+      "flag": "🇱🇰"
+    },
+    {
+      "name": "Syria",
+      "iso2": "SY",
+      "iso3": "SYR",
+      "flag": "🇸🇾"
+    },
+    {
+      "name": "Tajikistan",
+      "iso2": "TJ",
+      "iso3": "TJK",
+      "flag": "🇹🇯"
+    },
+    {
+      "name": "Thailand",
+      "iso2": "TH",
+      "iso3": "THA",
+      "flag": "🇹🇭"
+    },
+    {
+      "name": "Timor-Leste",
+      "iso2": "TL",
+      "iso3": "TLS",
+      "flag": "🇹🇱"
+    },
+    {
+      "name": "Turkey",
+      "iso2": "TR",
+      "iso3": "TUR",
+      "flag": "🇹🇷"
+    },
+    {
+      "name": "Turkmenistan",
+      "iso2": "TM",
+      "iso3": "TKM",
+      "flag": "🇹🇲"
+    },
+    {
+      "name": "United Arab Emirates",
+      "iso2": "AE",
+      "iso3": "ARE",
+      "flag": "🇦🇪"
+    },
+    {
+      "name": "Uzbekistan",
+      "iso2": "UZ",
+      "iso3": "UZB",
+      "flag": "🇺🇿"
+    },
+    {
+      "name": "Vietnam",
+      "iso2": "VN",
+      "iso3": "VNM",
+      "flag": "🇻🇳"
+    },
+    {
+      "name": "Yemen",
+      "iso2": "YE",
+      "iso3": "YEM",
+      "flag": "🇾🇪"
+    },
+    {
+      "name": "United States",
+      "iso2": "US",
+      "iso3": "USA",
+      "flag": "🇺🇸"
+    },
+    {
+      "name": "United Kingdom",
+      "iso2": "GB",
+      "iso3": "GBR",
+      "flag": "🇬🇧"
+    },
+    {
+      "name": "Germany",
+      "iso2": "DE",
+      "iso3": "DEU",
+      "flag": "🇩🇪"
+    },
+    {
+      "name": "Japan",
+      "iso2": "JP",
+      "iso3": "JPN",
+      "flag": "🇯🇵"
+    },
+    {
+      "name": "Australia",
+      "iso2": "AU",
+      "iso3": "AUS",
+      "flag": "🇦🇺"
+    },
+    {
+      "name": "South Korea",
+      "iso2": "KR",
+      "iso3": "KOR",
+      "flag": "🇰🇷"
+    },
+    {
+      "name": "France",
+      "iso2": "FR",
+      "iso3": "FRA",
+      "flag": "🇫🇷"
+    },
+    {
+      "name": "Italy",
+      "iso2": "IT",
+      "iso3": "ITA",
+      "flag": "🇮🇹"
+    },
+    {
+      "name": "Canada",
+      "iso2": "CA",
+      "iso3": "CAN",
+      "flag": "🇨🇦"
+    },
+    {
+      "name": "Russia",
+      "iso2": "RU",
+      "iso3": "RUS",
+      "flag": "🇷🇺"
+    },
+    {
+      "name": "Saudi Arabia",
+      "iso2": "SA",
+      "iso3": "SAU",
+      "flag": "🇸🇦"
+    }
+    
+  ]
+}

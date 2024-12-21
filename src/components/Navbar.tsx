@@ -1,9 +1,9 @@
 import Link from "next/link"
 import Image from "next/image"
 import Logo from "../../public/image.png"
-import { ClerkProvider, SignedIn, UserButton, } from '@clerk/nextjs'
+import { ClerkProvider, SignedIn, UserButton, useUser } from '@clerk/nextjs'
 function Navbar() {
-    // const { user } = useUser();
+
 
     return (
         <ClerkProvider>
@@ -22,10 +22,10 @@ function Navbar() {
                     </div>
 
                     {/* User Button (only show when signed in) */}
-                    <div className="flex items-center space-x-4 text-gray-700 gap-2">
+                    <div className="flex items-center  text-gray-700 font-normal gap-2">
                         <SignedIn >
                             <UserButton />
-                            {/* {user?.firstName} */}
+                            <UserInfo />
                         </SignedIn>
                     </div>
                 </div>
@@ -34,5 +34,11 @@ function Navbar() {
         </ClerkProvider>
     )
 }
+
+//extracting user name from useUser if user is signed In
+const UserInfo = () => {
+    const { user } = useUser();
+    return <div>{user?.firstName}</div>;
+};
 
 export default Navbar
