@@ -214,7 +214,7 @@ For any inquiries or issues, please reach out to:
 - **Developed And Created By**
 - **Name**: Gaurav Roy
 - **GitHub**: [(https://github.com/gauravxroy)]
-- *** This Assignment is for educational purposes only , and don't copy 
+- *** This Assignment is for educational purposes only.
 
 
 Documentations: 
